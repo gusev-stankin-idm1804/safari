@@ -1,0 +1,29 @@
+.country {
+    padding: 100px 0;
+    
+    // .country__items
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 256px);
+        gap: 32px;
+        justify-content: center;
+    }
+    // .country__item
+    &__item {
+        display: grid;
+        grid-template: minmax(0, 110px) auto / 1fr;
+    }
+    // .country__img
+    &__img {
+        max-height: 110px;
+        width: 256px;
+        margin: 0 auto;
+    }
+    // .country__name
+    &__name {
+        border: 1px solid #D9D9DE;
+        border-top: none;
+        padding: 12px 19px 19px 19px;
+        line-height: 19px;
+    }
+}

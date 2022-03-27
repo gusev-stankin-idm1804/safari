@@ -1,0 +1,13 @@
+.about {
+  margin-bottom: 100px;
+}
+.about__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about__video {
+  width: 1120px;
+  height: 404px;
+  background: #000;
+}

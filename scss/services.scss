@@ -1,0 +1,27 @@
+.services {
+    padding: 32px 0 51px;
+    background: url('/img/bg2.jpg') no-repeat top center/cover;
+    color: #FFFFFF; 
+    // .services__title
+    &__title {
+        margin-bottom: 52px;
+    }
+    // .services__items
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+        gap: 74px 56px;
+    }
+    // .services__item
+    &__item {
+    }
+    // .services__icon
+    &__icon {
+        margin-bottom: 15px;
+    }
+    // .services__text
+    &__text {
+        line-height: 130%;
+    }
+}
+

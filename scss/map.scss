@@ -1,0 +1,26 @@
+.map {
+    padding-top: 105.5px;
+    margin-bottom: 100px;
+    // .map__title
+    &__title {
+        margin-bottom: 46px;
+    }
+    // .map__iframe
+    &__iframe {
+        background-color: rgb(62, 167, 167);
+        width: 1120px;
+        height: 609px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .map {
+        padding-top: 40px;
+        margin-bottom: 40px;
+        &__iframe {
+            background-color: rgb(62, 167, 167);
+            width: 100%;
+            height: 500px;
+        }
+    }
+}

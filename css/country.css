@@ -1,0 +1,8 @@
+.country {
+  padding: 100px 0;
+}
+.country__items {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
